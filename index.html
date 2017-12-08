@@ -1,6 +1,10 @@
 ---
 ---
-
+<style type="text/css">
+	* {
+		text-transform: capitalize;
+	}
+</style>
 {% for post in site.posts %}
-	<a href="/link{{ post.url }}">{{ post.url | replace: "/", "" | replace: "-", " " | capitalize }}</a>
+	<a href="/link{{ post.url }}">{{ post.url | replace: "/", "" | replace: "-", " " }}</a>
 {% endfor %}
