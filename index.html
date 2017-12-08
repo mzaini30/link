@@ -1,10 +1,14 @@
 ---
+layout: default
 ---
+
 <style type="text/css">
 	* {
 		text-transform: capitalize;
 	}
 </style>
+<ol>
 {% for post in site.posts %}
-	<a href="/link{{ post.url }}">{{ post.url | replace: "/", "" | replace: "-", " " }}</a><br>
+	<li><a href="/link{{ post.url }}">{{ post.url | replace: "/", "" | replace: "-", " " }}</a></li>
 {% endfor %}
+</ol>
