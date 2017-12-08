@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zen</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font/build/web/hack-subset.css">
+	<link rel="stylesheet" type="text/css" href="/bin/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="/bin/css/jquery-sakura.min.css">
+	<style type="text/css">
+		* {
+			font-family: Hack, monospace;
+		}
+		body {
+			width: 80%;
+			margin: auto;
+		}
+	</style>
+</head>
+<body>
+	<center>
+		<p>
+			<pre>
+███████╗███████╗███╗   ██╗
+╚══███╔╝██╔════╝████╗  ██║
+  ███╔╝ █████╗  ██╔██╗ ██║
+ ███╔╝  ██╔══╝  ██║╚██╗██║
+███████╗███████╗██║ ╚████║
+╚══════╝╚══════╝╚═╝  ╚═══╝
+			</pre>
+		</p>
+	</center>
+	{{ content }}
+	<center>
+		<p>“ヽ(´▽｀)ノ”</p>
+	</center>
+	<script type="text/javascript" src="/bin/js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="/bin/js/jquery-sakura.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$("body").sakura();
+		});
+	</script>
+</body>
+</html>
