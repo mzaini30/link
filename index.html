@@ -6,5 +6,5 @@
 	}
 </style>
 {% for post in site.posts %}
-	<a href="/link{{ post.url }}">{{ post.url | replace: "/", "" | replace: "-", " " }}</a>
+	<a href="/link{{ post.url }}">{{ post.url | replace: "/", "" | replace: "-", " " }}</a><br>
 {% endfor %}
