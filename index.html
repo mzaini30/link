@@ -8,7 +8,7 @@ layout: default
 	}
 </style>
 <ol>
-{% for post in site.posts %}
+{% for post in site.posts | sort: post.url %}
 	<li><a href="/link{{ post.url }}">{{ post.url | replace: "/", "" | replace: "-", " " }}</a></li>
 {% endfor %}
 </ol>
