@@ -1,1 +1,4 @@
-<script type="text/javascript">location.href="https://www.youtube.com/watch?v=BzZroxr5IDQ"</script>
+---
+layout: link
+link: https://www.youtube.com/watch?v=BzZroxr5IDQ
+---
