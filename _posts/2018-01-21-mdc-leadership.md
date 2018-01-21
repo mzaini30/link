@@ -1,4 +1,4 @@
 ---
 layout: link
-link: #
+link: about:blank
 ---
