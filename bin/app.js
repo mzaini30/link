@@ -18,5 +18,7 @@ if (get_url_parameter('url') != undefined){
 }
 
 if (get_url_parameter('wa') != undefined){
-    location.href = 'whatsapp://send?text=' + get_url_parameter('wa')
+    setTimeout(function(){
+        return location.href = 'whatsapp://send?text=' + get_url_parameter('wa')    
+    }, 3000)
 }
