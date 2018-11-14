@@ -16,7 +16,7 @@ var get_url_parameter = function get_url_parameter(sParam) {
 if (get_url_parameter('url') != undefined){
     setTimeout(function(){
         return location.href = get_url_parameter('url')
-    }, 3000)
+    }, 10000)
 }
 
 if (get_url_parameter('wa') != undefined){
