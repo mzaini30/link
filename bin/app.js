@@ -14,11 +14,11 @@ var get_url_parameter = function get_url_parameter(sParam) {
 };
 
 if (get_url_parameter('url') != undefined){
-    location.href = get_url_parameter('url')
+    setTimeout(function(){
+        return location.href = get_url_parameter('url')
+    }, 3000)
 }
 
 if (get_url_parameter('wa') != undefined){
-    setTimeout(function(){
-        return location.href = 'whatsapp://send?text=' + get_url_parameter('wa')    
-    }, 3000)
+    location.href = 'whatsapp://send?text=' + get_url_parameter('wa')
 }
